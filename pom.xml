@@ -87,7 +87,7 @@ along with semanticcms-section-bom.  If not, see <http://www.gnu.org/licenses />
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<!-- Report by versions:display-dependency-updates -->
+			<!-- Reported by versions:display-dependency-updates -->
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>4.3.1${POST-SNAPSHOT}</version>
 			</dependency>
