@@ -141,6 +141,13 @@ along with semanticcms-section-bom.  If not, see <http://www.gnu.org/licenses />
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- Reported by versions:display-dependency-updates -->
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-encoding</artifactId><version>5.0.1${POST-SNAPSHOT}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId><version>0.5.1${POST-SNAPSHOT}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
