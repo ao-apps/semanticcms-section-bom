@@ -25,11 +25,11 @@ along with semanticcms-section-bom.  If not, see <http://www.gnu.org/licenses />
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.semanticcms</groupId><artifactId>semanticcms-parent</artifactId><version>1.13.2-POST-SNAPSHOT</version>
+		<groupId>com.semanticcms</groupId><artifactId>semanticcms-parent</artifactId><version>1.13.3-SNAPSHOT</version>
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-bom</artifactId><version>1.7.0-POST-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-bom</artifactId><version>1.7.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
@@ -102,10 +102,10 @@ along with semanticcms-section-bom.  If not, see <http://www.gnu.org/licenses />
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -118,10 +118,10 @@ along with semanticcms-section-bom.  If not, see <http://www.gnu.org/licenses />
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.0${POST-SNAPSHOT}</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
