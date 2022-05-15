@@ -25,7 +25,7 @@ along with semanticcms-section-bom.  If not, see <https://www.gnu.org/licenses/>
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.semanticcms</groupId><artifactId>semanticcms-parent</artifactId><version>1.14.0<!-- -POST-SNAPSHOT --></version>
+    <groupId>com.semanticcms</groupId><artifactId>semanticcms-parent</artifactId><version>1.14.0-POST-SNAPSHOT</version>
     <relativePath>../../parent/pom.xml</relativePath>
   </parent>
 
@@ -108,75 +108,75 @@ along with semanticcms-section-bom.  If not, see <https://www.gnu.org/licenses/>
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.2<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.2<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-all</artifactId><version>1.7.2${POST-SNAPSHOT}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-model</artifactId><version>1.6.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-model</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-model</artifactId><version>1.6.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-model</artifactId><version>1.6.0${POST-SNAPSHOT}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.2<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.2<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>1.11.2${POST-SNAPSHOT}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-style</artifactId><version>1.8.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-style</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-style</artifactId><version>1.8.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-style</artifactId><version>1.8.0${POST-SNAPSHOT}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-taglib</artifactId><version>1.9.1<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-taglib</artifactId><version>1.9.1${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-taglib</artifactId><version>1.9.1<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-taglib</artifactId><version>1.9.1${POST-SNAPSHOT}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
       <!-- Reported by versions:display-dependency-updates -->
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-concurrent</artifactId><version>4.0.2<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-concurrent</artifactId><version>4.0.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-fluent-html</artifactId><version>0.7.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-fluent-html</artifactId><version>0.7.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId><version>0.7.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-any</artifactId><version>0.7.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-servlet</artifactId><version>0.7.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-fluent-html-servlet</artifactId><version>0.7.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><version>5.1.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><version>5.1.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.2.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>5.2.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-servlet-filter</artifactId><version>3.0.2<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-servlet-filter</artifactId><version>3.0.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-servlet-util</artifactId><version>5.2.0<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.aoapps</groupId><artifactId>ao-servlet-util</artifactId><version>5.2.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.18.3<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-servlet</artifactId><version>1.18.3${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><version>1.15.2<!-- ${POST-SNAPSHOT} --></version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-core-taglib</artifactId><version>1.15.2${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
         <groupId>joda-time</groupId><artifactId>joda-time</artifactId><version>2.10.14</version>
