@@ -36,15 +36,15 @@ along with semanticcms-section-bom.  If not, see <https://www.gnu.org/licenses/>
     <module.name>com.semanticcms.section.bom.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-section-bom</documented.artifactId>
-    <documented.name>SemanticCMS Section BOM²</documented.name>
+    <documented.name>SemanticCMS Section BOM</documented.name>
     <documented.description>Bill of Materials (BOM) for SemanticCMS Section features.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS Section BOM² Book</name>
+  <name>SemanticCMS Section BOM Book</name>
   <url>https://semanticcms.com/section/bom/</url>
-  <description>Documentation for SemanticCMS Section BOM² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS Section BOM in SemanticCMS format.</description>
   <inceptionYear>2019</inceptionYear>
 
   <licenses>
