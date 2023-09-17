@@ -32,6 +32,11 @@ along with semanticcms-section-bom.  If not, see <https://www.gnu.org/licenses/>
   <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-bom</artifactId><version>1.7.2-POST-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <properties>
+    <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
+    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+  </properties>
+
   <name>SemanticCMS Section BOM</name>
   <url>https://semanticcms.com/section/bom/</url>
   <description>Bill of Materials (BOM) for SemanticCMS Section features.</description>
