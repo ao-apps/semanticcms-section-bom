@@ -112,7 +112,7 @@ along with semanticcms-section-bom.  If not, see <https://www.gnu.org/licenses/>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-model</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>2.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>2.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-style</artifactId><version>2.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
@@ -132,7 +132,7 @@ along with semanticcms-section-bom.  If not, see <https://www.gnu.org/licenses/>
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>2.0.0-POST-SNAPSHOT</version>
+        <groupId>com.semanticcms</groupId><artifactId>semanticcms-section-servlet</artifactId><version>2.0.1-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -160,7 +160,7 @@ along with semanticcms-section-bom.  If not, see <https://www.gnu.org/licenses/>
         <groupId>com.aoapps</groupId><artifactId>ao-servlet-filter</artifactId><version>4.0.0${POST-SNAPSHOT}</version>
       </dependency>
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>ao-servlet-util</artifactId><version>6.0.0${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>ao-servlet-util</artifactId><version>6.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
       </dependency>
       <dependency>
         <groupId>com.aoapps</groupId><artifactId>ao-taglib</artifactId><version>10.0.0${POST-SNAPSHOT}</version>
